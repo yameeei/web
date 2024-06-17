@@ -13,23 +13,21 @@
 
     <!-- 구글 폰트 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Noto+Sans+KR:wght@400;700&display=swap"
-        rel="stylesheet">
-</head>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-<body>
-   <body>
-  
+    <body>
+
     <!--네비게이션 영역-->
+
+  
 
 
     <nav class="navbar navbar-expand-md fixed-top"">
       <div class="container">
-        <a class="gugi-font navbar-brand" href="#top">
-          <img src="images/logo.png" alt="로고">
-          Rundgang<br>
-        2023</a>
+        <a class="Open+Sans navbar-brand" href="index.html">
+          <img src="images\abk no bg size2.png" alt="로고">
+          </a>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"
                 aria-controls="nav-menu" aria-expanded="false" aria-label="메뉴">
@@ -39,12 +37,12 @@
             <div class="collapse navbar-collapse" id="nav-menu">
                 <ul class="navbar-nav ms-auto my-2">
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#top" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#main" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Main
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">About</a></li>
-                      <li><a class="dropdown-item" href="#">Contact</a></li>
+                      <li><a class="dropdown-item" href="#footer">About</a></li>
+                      <li><a class="dropdown-item" href="#footer">Contact</a></li>
                     </ul>
                   </li>
 
@@ -52,6 +50,7 @@
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Floors
                     </a>
+                    
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="1stfloor.html">1st floor</a></li>
                       <li><a class="dropdown-item" href="2ndfloor.html">2nd floor</a></li>
@@ -59,33 +58,134 @@
                     </ul>
                   </li>
 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Floors
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="1stfloor.html">map</a></li>
-                    </ul>
-                  </li>
-
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Info.</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#service">Winner of the year</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#blog">At a Glance</a></li>
+                  <li class="nav-item"><a class="nav-link" target="_blank" href="https://www.abk-stuttgart.de/en/academy/profile/how-to-find-us.html">How to find us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="winneroftheyear.html">Winner of the year</a></li>
+                    <li class="nav-item"><a class="nav-link"  href="glance.html">At a Glance</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- 네비게이션 영역 끝 -->
 
-    <body>
-      <!--header-->
-      <header id="home">
+
+      <!--헤더 영역 시작-->
+    
+      
+
+      <header id="main" class="d-flex flex-column justify-content-center">
+
+        <div class="container d-grid gap-2 d-md-block">
+     
+          <table style="height: 100px; margin: 250px 0 0 0" >
+            
+            <tbody>
+              
+               <!-- 3층 Button trigger modal -->
+              
+               <tr>
+                <td class="btn text-white" type="button" style="background-color:#1e47f2; font-weight: bolder; padding: 150px 35px;" data-bs-toggle="modal" data-bs-target="#exampleModal1">MOVE TO<br> 3RD <br>FLOOR</td>
+                   <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                   <div class="modal-dialog">
+                     <div class="modal-content">
+                       <div class="modal-header">
+                         <h1 class="modal-title fs-5" id="exampleModalLabel1">3rd floor information</h1>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                        <img src="images\KakaoTalk_20240618_003808637_01.jpg" alt="작품사진" class="img-fluid">
+                        Representive work of the 3rd floor 
+                       </div>
+                       <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                         <button type="button" class="btn btn-primary" target="_blank" href="3rdfloor.html">LOOK AROUND</button>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+              </tr>
+               <!-- 2층 Button trigger modal -->
+              <tr>
+                <td></td>
+                <td class="btn text-white" type="button" style="background-color:#ec68c7;font-weight: bolder; padding: 120px 35px;" data-bs-toggle="modal" data-bs-target="#exampleModal2">MOVE TO<br> 2ND <br>FLOOR</td>
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel2" >2nd floor information</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <img src="images\KakaoTalk_20240618_003808637_10.jpg" alt="작품사진" class="img-fluid">
+                        Representive work of the 2nd floor
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" href="2ndfloor.html">LOOK AROUND</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </tr> 
+               <!-- 1층 Button trigger modal -->
+              <tr>
+                <td></td><td></td> 
+                <td class="btn text-white align-baseline="button" style="background-color:#000000;font-weight: bolder; padding: 70px 35px; " data-bs-toggle="modal" data-bs-target="#exampleModal3">MOVE TO<br> 1ST <br>FLOOR</td>
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel3">1st floor information</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <img src="images\KakaoTalk_20240618_015252585_10.jpg" alt="작품사진" class="img-fluid">
+                        Representive work of the 1st floor
+                    
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" href="1stfloor.html">LOOK AROUND</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+              </tr> 
+                
+            </tbody>
+          </table>
+   
 
 
+</div>
 
 
       </header>
+      <!--헤더 영역 끝-->
     
+
+      <!--풋터 영역-->
+
+      <footer class="bg-dark text-white" id="footer">
+       <div class="container text-start">
+        
+        <p class="text-start fs-1" style="color: #1e47f2; font-weight: bold;">About</p>
+        <p class="text-start" style="color: white;">This is an art exhibition that can be enjoyed in a digital space.<br>
+           Take your time and look at the works of art by passionate young artists. <br>
+           You can purchase the work you want and we will help you contact the artist.</p>
+        
+        <p class="text-end fs-1" style="color: #ec68c7; font-weight: bold;">Contact</p>
+        <p class="text-end" style="color: white;">Tel/ 000-0000-0000<br> Email/ yameeei@naver.com</p>
+        
+        <p class="text-center py-4 mb-0">copyright <i class="bi bi-c-circle"></i>2022 designed by  
+         <a href="http://www.codethem.co.kr/" target="_blank" class="gugi-font text-decoration-none">yameeei</a>
+       </p>
+       </div>
+      </footer>
+
+
+
+      </footer>
     
     
     
@@ -105,5 +205,4 @@
 
 </body>
 </html>
-
 
